@@ -1,4 +1,4 @@
-# 🛡️ Forensics Automation Toolkit
+#  Forensics Automation Toolkit
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
@@ -6,14 +6,14 @@
 
 A comprehensive Python-based toolkit designed to automate common forensics tasks across Disk, Network, Memory, and Steganography domains. Built for CTFs (Capture The Flag) and initial DFIR (Digital Forensics and Incident Response) investigations.
 
-## 🎯 Goal
+##  Goal
 
 - **Automate** standard forensic analysis steps.
 - **Accelerate** CTF problem solving.
 - **Generate** actionable reports.
 - **Demonstrate** structured analysis logic.
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 forensics-automation-toolkit/
@@ -30,7 +30,7 @@ forensics-automation-toolkit/
 └── README.md                # Project documentation
 ```
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -57,33 +57,33 @@ forensics-automation-toolkit/
    pip install -r requirements.txt
    ```
 
-## 🛠️ Usage
+##  Usage
 
-### 1️⃣ Disk Forensics
+### 1️ Disk Forensics
 Analyzes files for type, hashes, strings, and metadata.
 ```bash
 python automation-scripts/disk/disk_scan.py <path_to_image_or_file>
 ```
 
-### 2️⃣ Network Forensics
+### 2️ Network Forensics
 Parses PCAP files for traffic summary and credentials.
 ```bash
 python automation-scripts/network/pcap_scan.py <path_to_pcap>
 ```
 
-### 3️⃣ Memory Forensics
+### 3️ Memory Forensics
 Automates Volatility 3 plugins (pslist, netscan, cmdline).
 ```bash
 python automation-scripts/memory/memory_scan.py <path_to_memory_dump>
 ```
 
-### 4️⃣ Steganography
+### 4️ Steganography
 Checks for hidden data using strings, exiftool, binwalk, and steghide.
 ```bash
 python automation-scripts/steganography/stego_scan.py <path_to_image>
 ```
 
-## 📊 Features
+##  Features
 
 | Module | Features | Tools Used |
 | :--- | :--- | :--- |
@@ -92,13 +92,13 @@ python automation-scripts/steganography/stego_scan.py <path_to_image>
 | **Memory** | Processes, Network, Commands | `volatility3` |
 | **Stego** | Metadata, Hidden binaries, Pass-less extract | `binwalk`, `steghide`, `strings` |
 
-## 🔮 Roadmap
+##  Roadmap
 
 - [ ] **Unified CLI**: Single `forensic.py` entry point.
 - [ ] **JSON Reports**: Standardized output format for easy parsing.
 - [ ] **Suspect Scoring**: Automated "suspiciousness" rating.
 - [ ] **GUI**: Graphical interface using Tkinter or web-based.
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
