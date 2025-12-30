@@ -94,7 +94,7 @@ python automation-scripts/steganography/stego_scan.py <path_to_image>
 
 ##  Roadmap
 
-- [ ] **Unified CLI**: Single `forensic.py` entry point.
+- [ ] **Unified CLI**:Single `forensic.py` entry point.
 - [ ] **JSON Reports**: Standardized output format for easy parsing.
 - [ ] **Suspect Scoring**: Automated "suspiciousness" rating.
 - [ ] **GUI**: Graphical interface using Tkinter or web-based.
