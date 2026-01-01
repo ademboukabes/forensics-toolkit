@@ -6,7 +6,7 @@
 
 A comprehensive Python-based toolkit designed to automate common forensics tasks across Disk, Network, Memory, and Steganography domains. Built for CTFs (Capture The Flag) and initial DFIR (Digital Forensics and Incident Response) investigations.
 
-##  Goal
+##  Goal:
 
 - **Automate** standard forensic analysis steps.
 - **Accelerate** CTF problem solving.
